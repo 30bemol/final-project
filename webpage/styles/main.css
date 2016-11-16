@@ -176,7 +176,11 @@ h1 {
 	text-align: justify;
 }
 
-#main2 table img {
+#app {
+	padding-top: 5%;
+} 
+
+#app img {
 	width: 60%;
 	height: auto;
 }
@@ -213,20 +217,20 @@ h1 {
 	text-align: center;
 }
 
-table {
+#social {
 	text-align: center;
 	margin: 0 auto;
 }
 
-td {
+#social td {
 	width: 15%;
 }
 
-table hr { 
+#social hr { 
     border-top: 1px solid #fff;
 }
 
-table img {
+#social img {
 	width: 3.5vw;
 	height: auto;
 	padding: 5px;
@@ -351,7 +355,7 @@ table img {
 		padding-bottom: 10px;
 	}
 
-	table img {
+	#social img {
 		width: 5.0vw;
 	}
 
