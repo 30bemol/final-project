@@ -181,6 +181,10 @@ h1 {
 	height: auto;
 }
 
+#main2 table p{
+	text-align: justify;
+}
+
 #main3 {
 	background-color: #fff;
 	width: 100%;
