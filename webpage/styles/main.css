@@ -176,16 +176,13 @@ h1 {
 	text-align: justify;
 }
 
+#main2 table img {
+	width: 60%;
+	height: auto;
+}
+
 #main3 {
 	background-color: #fff;
-	width: 100%;
-	height: auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	text-align: justify;
-}
-#main4 {
-	background-color: #4c82c8;
 	width: 100%;
 	height: auto;
 	padding-top: 50px;
