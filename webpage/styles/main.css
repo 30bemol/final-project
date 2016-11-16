@@ -178,15 +178,18 @@ h1 {
 
 #app {
 	padding-top: 5%;
+	text-align: center;
+	margin: 0 auto;
 } 
 
 #app img {
-	width: 60%;
+	width: 70%;
 	height: auto;
 }
 
-#main2 table p{
-	text-align: justify;
+#app p {
+	padding: 0 20% 0 20%;
+	height: auto;
 }
 
 #main3 {
