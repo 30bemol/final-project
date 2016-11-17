@@ -184,7 +184,7 @@ h1 {
 	text-align: center;
 	width: 100%;
 	height: auto;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 #app1, #app2, #app3 {
@@ -324,6 +324,10 @@ h1 {
 	}
 
 	/* MAIN */
+	#container {
+		margin-top: 20%;
+	}
+
 	#main1, #main2, #main3 {
 		text-align: left;
 	}
@@ -340,14 +344,6 @@ h1 {
 	#app_txt {
 		font-size: 1.2em;
 		margin: 2% 0 10% 0;
-	}
-
-	#container {
-		margin-top: 20%;
-	}
-
-	#container h1 {
-		margin-bottom: 10%;
 	}
 }
 
@@ -367,10 +363,6 @@ h1 {
 		margin-right: 40px;
 		padding-top: 10px;
 		padding-bottom: 10px;
-	}
-
-	#container h1 {
-		margin-bottom: 5%;
 	}
 
 	#app_txt {
