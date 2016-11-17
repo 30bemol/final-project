@@ -7,8 +7,9 @@ html, body {
 body {
 	margin: 0px;
 	font-family: "Roboto", sans-serif;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	color: #363237;
+	line-height: 160%;
 }
 
 a {
@@ -34,6 +35,7 @@ span {
 h1 {
 	text-align: center;
 	padding-bottom: 10px;
+	line-height: 120%;
 }
 
 /* HEADER */
@@ -59,7 +61,7 @@ h1 {
 #logo_txt {
 	font-size: 30px;
 	float: left;
-	margin-top: 8px;
+	margin-top: 13px;
 	margin-left: 10px;
 }
 
@@ -70,6 +72,7 @@ h1 {
 #navbar{
 	float: right;
 	font-size: 18px;
+	line-height: 100%;
 }
 
 #navbar ul {
@@ -112,14 +115,11 @@ h1 {
 }
 
 #heading {
-	background-color: #4c82c8;
-	opacity: 0.9;
 	float: right;
 	position: relative;
-	width: 35%;
+	width: 49%;
 	height: auto;
-	margin-top: 210px;
-	padding: 0 3px 0 30px;
+	margin-top: 270px;
 	border-radius: 10px 0 0 10px;
 	z-index: 1;
 }
@@ -176,20 +176,33 @@ h1 {
 	text-align: justify;
 }
 
-#app {
-	padding-top: 5%;
+#container {
 	text-align: center;
-	margin: 0 auto;
-} 
-
-#app img {
-	width: 70%;
+	width: 100%;
 	height: auto;
+	margin-top: 10%;
 }
 
-#app p {
-	padding: 0 20% 0 20%;
-	height: auto;
+#app1, #app2, #app3 {
+	display: inline-block;
+	margin-top: 3%;
+	width: 18%;
+	vertical-align: top;
+}
+
+#app2 {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#app1 img, #app2 img, #app3 img {
+	width: 16vw;
+}
+
+#app_txt {
+	text-align: center;
+	font-size: 1.8vw;
+	margin: 10% 0 10% 2%;
 }
 
 #main3 {
@@ -242,29 +255,18 @@ h1 {
 /* TABLET SCREEN */
 @media only screen and (max-width : 850px) {
 
-	body {font-size: 1.1em}
+	body {font-size: 1.0em;}
 
 	/* FRONT PAGE */
 	#front_page {
 		background-image: url('../images/banner_medium.jpg');
 	}
 
-	#heading {
-		float: left;
-		position: relative;
-		margin-top: 300px;
-		width: 50%;
-		padding: 0 0 0 10px;
-		border-radius: 0 10px 10px 0;
-	}
-
 	#heading h1 {
-		text-align: left;
 		font-size: 1.6em;
 	}
 	
 	#heading p {
-		text-align: left;
 		font-size: 1.3em;
 	}
 
@@ -324,12 +326,41 @@ h1 {
         -o-transform:scale(1.2); /* Opera */
     	transform:scale(1.2);
 	}
+
+	/* MAIN */
+	#main1, #main2, #main3 {
+		text-align: left;
+	}
+
+	#app1, #app2, #app3 {
+		display: inline;
+		margin: 10% 0 0 0;
+	}
+
+	#app1 img, #app2 img, #app3 img {
+		width: 40%;
+	}
+
+	#app_txt {
+		font-size: 1.2em;
+		margin: 2% 0 10% 0;
+	}
+
+	#container {
+		margin-top: 20%;
+	}
+
+	#container h1 {
+		margin-bottom: 10%;
+	}
 }
 
 /* MOBILE SCREEN */
 @media only screen and (max-width : 420px) {
 	
 	body {font-size: 0.8em}
+
+	h1 {font-size: 1.3em;}
 	
 	#logo_txt{
 		display: none;
@@ -344,11 +375,11 @@ h1 {
 	}
 
 	#heading h1 {
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 	
 	#heading p {
-		font-size: 1.0em;
+		font-size: 1.1em;
 	}
 
 	.content {
@@ -356,6 +387,14 @@ h1 {
 		margin-right: 40px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+	}
+
+	#container h1 {
+		margin-bottom: 5%;
+	}
+
+	#app_txt {
+		font-size: 1.1em;
 	}
 
 	#social img {
