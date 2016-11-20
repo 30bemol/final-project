@@ -543,6 +543,7 @@ h1 {
 		margin-right: 40px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+        text-align: justify;
 	}
 
 	.app_txt {
@@ -556,7 +557,7 @@ h1 {
 	#footer p {
 		font-size: 0.8em;
 	}
-    
+
 /*_____________exceptions |3.21|_*/
     #logo_txt {
 		display: none;
