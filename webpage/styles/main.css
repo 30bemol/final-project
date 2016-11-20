@@ -202,7 +202,6 @@ h1 {
 }
 
 #flag {
-	float: right;
 	margin-right: 0;
 	margin-left: 8px;
 }
@@ -210,6 +209,7 @@ h1 {
 #flag img {
 	border: 1px solid #fff;
 }
+
 
 
 /*__________accessibility |2.11|_*/
