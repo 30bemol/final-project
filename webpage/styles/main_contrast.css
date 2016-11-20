@@ -187,6 +187,7 @@ h1 {
 	display: inline-block;
 	margin-right: 20px;
 	margin-left: 8px;
+	float:left;
 }
 
 #navbar ul li img:hover {
@@ -230,6 +231,12 @@ h1 {
 	margin: 15px 10px 0 10px;
 }
 
+.tab-nav{
+   pointer-events: none;
+   cursor: default;
+   opacity: 0;
+
+}
 /*_____________exceptions |2.12|_*/
 .dropdown, .drop_content {
 	display: none;
