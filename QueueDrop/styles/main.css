@@ -33,6 +33,7 @@
 /*__________________________________________*/
 /*--| 5 |-Other-----------------------------*/
 /*---|5.1|----------------------Scroll arrow*/   
+/*---|5.2|--------------------Tab-navigation*/   
 
 
 
@@ -209,12 +210,6 @@ h1 {
 
 #flag img {
 	border: 1px solid #fff;
-}
-
-.tab-nav{
-   pointer-events: none;
-   cursor: default;
-   opacity: 0;
 }
 
 
@@ -595,4 +590,11 @@ h1 {
 	0% { -webkit-transform: translateY(0px); } 
 	50% { -webkit-transform: translateY(-7px); } 
 	100% { -webkit-transform: translateY(0px); } 
+}
+
+/*-----------Tab-navigation |5.2|-*/
+.tab-nav{
+   pointer-events: none;
+   cursor: default;
+   opacity: 0;
 }
