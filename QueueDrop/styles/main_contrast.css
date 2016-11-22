@@ -532,9 +532,13 @@ h1 {
 	.app_txt {
 		font-size: 1.1em;
 	}
+    
+    #main1, #main2, #main3 {
+        text-align: left;
+    }
 
 	#social img {
-		width: 5.0vw;
+		width: 10.0vw;
 	}
 
 	#footer p {
