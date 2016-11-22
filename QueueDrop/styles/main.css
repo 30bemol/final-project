@@ -513,6 +513,10 @@ h1 {
 		font-size: 1.1em;
 		margin: 2% 0 10% 0;
 	}
+    
+    #social img {
+		width: 7.0vw;
+	}
 
 /*_____________exceptions |3.21|_*/
     #heading {
