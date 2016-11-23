@@ -586,3 +586,7 @@ h1 {
    cursor: default;
    opacity: 0;
 }
+
+.tab-navImg{
+	cursor: default;
+}
