@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="styles/main_contrast.css" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <link rel="icon" type="image/icon" href="images/favicon.ico">
+        <script src="js/javascript.js"></script>
 	</head>
 
 	<body>
@@ -51,7 +52,8 @@
 			</nav>
 
 			<div class="dropdown">
- 				<button class="dropbtn"><img src="images/menu.png" width="70px" height="26px" alt="menu" /></button>
+ 				<button class="dropbtn" onclick="toggleMenu()"><img src="images/menu.png" width="70px" height="26px" alt="menu" /></button>
+ 				<div id="menu-display">
   					<div class="drop_content">
     					<a href="contrast.html">Hjem</a>
     					<a href="#main1">Problemstilling</a>
@@ -59,6 +61,7 @@
     					<a href="#main3">Last ned</a>
     					<a href="contrast_eng.html"><img src="images/english.png" width="24px" height="18px" alt="eng" /></a>
   					</div>
+  				</div>
   			</div>
 		</header>
 

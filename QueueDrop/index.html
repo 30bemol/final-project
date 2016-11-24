@@ -4,6 +4,7 @@
 	<head>
 		<title>QueueDrop</title>
 
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" initial-scale=1, maximum-scale=1 />
 		<meta name="author" content="Vladimir Maric" />
@@ -18,7 +19,11 @@
 		<link rel="stylesheet" href="styles/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <link rel="icon" type="image/icon" href="images/favicon.ico">
+        <script src="js/javascript.js"></script>
 	</head>
+
+	
+
 
 	<body>
 	<!-- Header -->
@@ -51,7 +56,8 @@
 			</nav>
 
 			<div class="dropdown">
- 				<button class="dropbtn"><img src="images/menu.png" width="70px" height="26px" alt="menu" /></button>
+ 				<button class="dropbtn" onclick="toggleMenu()"><img src="images/menu.png" width="70px" height="26px" alt="menu" /></button>
+ 				<div id="menu-display">
   					<div class="drop_content">
     					<a href="index.html">Hjem</a>
     					<a href="#main1">Problemstilling</a>
@@ -59,6 +65,7 @@
     					<a href="#main3">Last ned</a>
     					<a href="index_eng.html"><img src="images/english.png" width="24px" height="18px" alt="eng" /></a>
   					</div>
+  				</div>
   			</div>
 		</header>
 

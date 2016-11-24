@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="styles/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <link rel="icon" type="image/icon" href="images/favicon.ico">
+        <script src="js/javascript.js"></script>
 	</head>
 
 	<body>
@@ -51,7 +52,8 @@
 			</nav>
 
 			<div class="dropdown">
- 				<button class="dropbtn"><img src="images/menu.png" width="70px" height="26px" alt="menu" /></button>
+ 				<button class="dropbtn" onclick="toggleMenu()"><img src="images/menu.png" width="70px" height="26px" alt="menu" /></button>
+ 				<div id="menu-display">
   					<div class="drop_content">
     					<a href="index_eng.html">Home</a>
     					<a href="#main1">QueueProblem</a>
@@ -59,6 +61,7 @@
     					<a href="#main3">Download</a>
     					<a href="index.html"><img src="images/norwegian.png" width="24px" height="18px" alt="nor" /></a>
   					</div>
+  				</div>
   			</div>
 		</header>
 
